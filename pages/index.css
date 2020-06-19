@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/playfair.css);
 @import url(../blokcs/root/root.css);
@@ -10,15 +9,3 @@
 @import url(../blokcs/place/place.css);
 @import url(../blokcs/sales/sales.css);
 @import url(../blokcs/slider/slider.css);
-=======
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/playfair.css);
-@import url(../blokcs/root/root.css);
-@import url(../blokcs/header/header.css);
-@import url(../blokcs/cover/cover.css);
-@import url(../blokcs/text-animation/text-animation.css);
-@import url(../blokcs/intro/intro.css);
-@import url(../blokcs/places/places.css);
-@import url(../blokcs/place/place.css);
-@import url(../blokcs/sales/sales.css);
->>>>>>> 3b9b6e630cccbeeffe7de5ed953bd6ad5347315f
