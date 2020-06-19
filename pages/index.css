@@ -2,3 +2,89 @@
 @import url(../vendor/fonts/playfair.css);
 @import url(../blokcs/root/root.css);
 @import url(../blokcs/header/header.css);
+@import url(../blokcs/cover/cover.css);
+@import url(../blokcs/text-animation/text-animation.css);
+@import url(../blokcs/intro/intro.css);
+@import url(../blokcs/places/places.css);
+@import url(../blokcs/place/place.css);
+@import url(../blokcs/sales/sales.css);
+
+.slayder {
+    width: 1200px;
+    overflow: hidden;
+    height: 360px;
+}
+
+.slayder__list {
+    position: relative;
+    left: 0;
+    width: 2200px;
+}
+
+.slayder__item {
+    display: flex;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.slayder__image {
+    max-width: 360px;
+}
+
+.slayder__prefix {
+    text-align: center;
+    width: 100%;
+    align-self: center;
+    padding-left: 100px;
+}
+
+.slayder__title {
+    font-size: 36px;
+    line-height: 1.23;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 28px;
+}
+
+.slayder__text {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.55;
+    font-weight: 300;
+}
+
+#navLinks {
+    text-align: center;
+    width: 1200px;
+}
+    #navLinks ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #CCCCCC;
+            padding: 5px;
+            border-radius: 50%;
+            border: black 5px solid;
+        }
+            #navLinks ul li:hover {
+                background-color: #FFFF00;
+            }
+            #navLinks ul li.active {
+                background-color: #333333;
+                color: #FFFFFF;
+                outline-width: 7px;
+            }
+                #navLinks ul li.active:hover {
+                    background-color: #484848;
+                    color: #FFFFFF;
+                }

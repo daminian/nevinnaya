@@ -1,0 +1,19 @@
+@keyframes move {
+    from {transform: translateY(0);}
+    to {transform: translateY(20px);}
+}
+
+.cover__arrow {
+    fill: #fff;
+    width: 40px;
+    height: 23px;
+    position: absolute;
+    bottom: 40px;
+    animation: move 1.2s ease-in-out infinite alternate forwards;
+}
+
+@media screen and (max-width: 600px) {
+    .cover__arrow {
+        bottom: 10px;
+    }
+}

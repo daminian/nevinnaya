@@ -1,0 +1,9 @@
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__title/intro__title.css);
+
+.intro {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    text-align: center;
+    white-space: pre-line;
+}

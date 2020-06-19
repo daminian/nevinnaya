@@ -1,0 +1,7 @@
+@import url(./__text/sales__text.css);
+@import url(./__title/sales__title.css);
+
+.sales {
+    text-align: center;
+    border-bottom: 1px gray solid;
+}
