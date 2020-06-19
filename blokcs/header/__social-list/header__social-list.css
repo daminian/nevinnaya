@@ -1,0 +1,5 @@
+.header__social-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}

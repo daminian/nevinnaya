@@ -1,0 +1,5 @@
+.header__menu {
+    grid-area: menu;
+    align-self: center;
+    justify-self: center;
+}

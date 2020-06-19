@@ -1,0 +1,6 @@
+.header__logo {
+    grid-area: logo;
+    max-width: 140px;
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,16 @@
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    50% {transform: rotate(25deg);}
+    to {transform: rotate(-25deg);}
+}
+
+
+.header__social-icon {
+    width: 30px;
+    transition: opacity 0,3s ease;
+}
+
+.header__social-icon:hover {
+    opacity: 0.8;
+    animation: rotation 1s ease alternate infinite;
+}

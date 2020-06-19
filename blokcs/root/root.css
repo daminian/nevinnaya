@@ -1,0 +1,9 @@
+@import url(./__content/root__content.css);
+
+.root {
+    font-family: 'Playfair Display', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto;
+    color: #152737;
+    white-space: nowrap;
+}

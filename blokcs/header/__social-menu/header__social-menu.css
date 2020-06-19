@@ -1,0 +1,5 @@
+.header__social-menu {
+    grid-area: social;
+    align-self: center;
+    justify-self: start;
+}
