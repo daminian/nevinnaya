@@ -1,6 +1,6 @@
 .places {
     display: grid;
-    grid-template-columns: repeat(2,560px);
+    grid-template-columns: repeat(2,1fr);
     grid-column-gap: 100px;
     justify-content: center;
     border-top: 1px grey solid;
