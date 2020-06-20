@@ -1,0 +1,29 @@
+@keyframes up {
+    from {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+    to {transform: translateY(-20px);}
+}
+
+.up {
+    margin: 0;
+    background-color: black;
+    border-radius: 50% ;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 4;
+}
+
+.up:hover {
+    animation: up 0.7s ease-in-out alternate infinite;;
+}
+
+@media screen and (max-width:768px) {
+    .up {
+        display: none;
+    }
+}
