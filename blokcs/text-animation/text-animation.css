@@ -11,6 +11,6 @@
 }
 
 .text-animation {
-    animation: text 1.7s cubic-bezier(.19,1,.22,1) 0.5s backwards;
+    animation: text 1.7s cubic-bezier(.19,1,.22,1) 0.7s backwards;
 }
 

@@ -1,6 +1,6 @@
 @keyframes move {
     from {transform: translateY(0);}
-    to {transform: translateY(20px);}
+    to {transform: translateY(7px);}
 }
 
 .cover__arrow {
@@ -9,7 +9,12 @@
     height: 23px;
     position: absolute;
     bottom: 40px;
-    animation: move 1.2s ease-in-out infinite alternate forwards;
+    animation: move 1.7s ease-in-out infinite alternate forwards;
+    transition: all ease-in-out 0.2s;
+}
+
+.cover__arrow:hover {
+    opacity: .7;
 }
 
 @media screen and (max-width: 600px) {

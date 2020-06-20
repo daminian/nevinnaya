@@ -1,0 +1,13 @@
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 105px;
+    padding-bottom: 150px;
+    color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+    .footer__container {
+        flex-direction: column;
+    }
+}

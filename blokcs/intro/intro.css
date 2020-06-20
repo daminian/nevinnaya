@@ -7,3 +7,10 @@
     text-align: center;
     white-space: pre-line;
 }
+
+@media screen and (max-width:768px) {
+    .intro {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+}

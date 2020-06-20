@@ -6,3 +6,16 @@
     border-top: 1px grey solid;
     border-bottom: 1px grey solid;
 }
+
+@media screen and (max-width:768px) {
+    .places {
+        border: none;
+        padding-top: 45px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .places {
+        grid-template-columns: 1fr;
+    }
+}

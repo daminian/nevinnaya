@@ -14,7 +14,26 @@
     grid-template-areas: 
         "social logo contact"
         "menu menu menu";
-    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 95px 60px;
     padding: 0 40px;
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 990;
+        background-color: #fff;
+        width: 100%;
+        padding: 0;
+        grid-template-rows: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .header {
+        grid-template-areas: 
+        "social logo"
+        "menu menu";
+    }
 }

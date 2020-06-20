@@ -1,0 +1,11 @@
+@import url(./__title/footer__title.css);
+@import url(./__text/footer__text.css);
+@import url(./__subtitle/footer__subtitle.css);
+@import url(./__place/footer__place.css);
+@import url(./__images/footer__images.css);
+@import url(./__container/footer__container.css);
+
+.footer {
+    text-align: center;
+    background-color: #2f2f31;
+}

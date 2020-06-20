@@ -1,0 +1,16 @@
+@import url(./__span/delivery__span.css);
+@import url(./__text/delivery__text.css);
+@import url(./__title/delivery__title.css);
+
+.delivery {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+@media screen and (max-width:768px) {
+    .delivery {
+        padding-top: 95px;
+    }
+}

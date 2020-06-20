@@ -6,3 +6,10 @@
     font-weight: 600;
     text-align: center;
 }
+
+@media screen and (max-width:360px) {
+    .slider__title {
+        padding-bottom: 45px;
+        white-space: pre-line;
+    }
+}
